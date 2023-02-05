@@ -1,9 +1,14 @@
 import React from "react";
 import aboutpic from "../assets/aboutpic.png";
+import { motion as m } from "framer-motion";
 
 const About = () => {
   return (
-    <div>
+    <m.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.75, ease: "easeOut" }}
+    >
       <div name="about" className="h-screen w-full bg-gray-900 text-white">
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
           <p className="text-4xl font-bold ">About</p>
@@ -25,7 +30,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </m.div>
   );
 };
 
