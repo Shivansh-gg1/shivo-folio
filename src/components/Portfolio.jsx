@@ -1,13 +1,13 @@
 import React from "react";
-import { web1 } from "../public/web1";
-import { web2 } from "../assets/web2";
-import { web3 } from "../assets/web3";
-import { web4 } from "../assets/web4";
-import { web5 } from "../assets/web5";
-import { web6 } from "../assets/web6";
-import { web7 } from "../assets/web7";
-import { web8 } from "../assets/web8";
-import { web9 } from "../assets/web9";
+import web1 from "../assets/web1";
+import web2 from "../assets/web2";
+import web3 from "../assets/web3";
+import web4 from "../assets/web4";
+import web5 from "../assets/web5";
+import web6 from "../assets/web6";
+import web7 from "../assets/web7";
+import web8 from "../assets/web8";
+import web9 from "../assets/web9";
 const Portfolio = () => {
   return (
     <div>
