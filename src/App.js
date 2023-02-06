@@ -2,6 +2,7 @@ import React from "react";
 import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar"
+import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <SocialLinks />
       <About />
+      <Portfolio />
     </div>
   );
 }

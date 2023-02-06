@@ -44,7 +44,11 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-full mx-20 w-1/2 md:w-full bg-gradient-to-b from-teal-500"
+            className="
+            rounded-full 
+            mx-20 
+            w-1/2 
+            md:w-full bg-gradient-to-b from-teal-500"
           />
         </div>
       </div>
