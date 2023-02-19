@@ -1,22 +1,26 @@
 import React from "react";
-import web1 from "../assets/web1";
-import web2 from "../assets/web2";
-import web3 from "../assets/web3";
-import web4 from "../assets/web4";
-import web5 from "../assets/web5";
-import web6 from "../assets/web6";
-import web7 from "../assets/web7";
-import web8 from "../assets/web8";
-import web9 from "../assets/web9";
+import web1 from "../assets/web1.jpeg";
+import web2 from "../assets/web2.png";
+import web3 from "../assets/web3.png";
+import web4 from "../assets/web4.png";
+import web5 from "../assets/web5.png";
+import web6 from "../assets/web6.png";
+import web7 from "../assets/web7.png";
+import web8 from "../assets/web8.png";
+import web9 from "../assets/web9.png";
 const Portfolio = () => {
   return (
     <div>
-      <div>
+      <div className="pb-8">
         <p className="text-4xl font-bold"> Portfolio </p>
         <p>Check out some of my work here!</p>
       </div>
       <div>
-        <img src={web1} alt="1st img" />
+        <img
+          className=" w-1/4 rounded-md duration-200 hover:scale-105"
+          src={web1}
+          alt="1stimg"
+        />
       </div>
       <div>
         <img src={web2} alt="2ndimg" />
